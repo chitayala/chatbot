@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import "./custom.scss";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+// @media (prefers-color-scheme: dark) {
+//   html {
+//     // color-scheme: dark;
+//     background-color: #ffffff !important;
+//     background-image: url("https://agentz-ui-assets.s3.amazonaws.com/callcenter.png") !important;
+//   }
+//   body {
+//     color: white;
+//     background-image: url("https://agentz-ui-assets.s3.amazonaws.com/callcenter.png") !important;
+//     background-repeat: no-repeat;
+//     background-attachment: fixed;
+//     background-size: cover;
+        
+//   }
+// }
+
+
+
+@media only screen and (max-width: 1440px) {
+  html {
+    // color-scheme: dark;
+    background-color: #ffffff !important;
+    background-image: url("https://agentz-ui-assets.s3.amazonaws.com/callcenter.png") !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  body {
+    color: white;
+    background-image: url("https://agentz-ui-assets.s3.amazonaws.com/callcenter.png") !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+        
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  html, body {
+    background-color: #ffffff !important;
+    background-image: url("https://agentz-ui-assets.s3.amazonaws.com/callcenter.png") !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  // body {
+  //   color: white;
+  //   background-image: url("https://agentz-ui-assets.s3.amazonaws.com/callcenter.png") !important;
+  //   background-repeat: no-repeat;
+  //   background-attachment: fixed;
+  //   background-size: cover;
+  // }
+}
